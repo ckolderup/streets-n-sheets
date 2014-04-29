@@ -1,0 +1,6 @@
+you'll need Twitter auth keys for any of this to work. Put them in .env and foreman will pick them up.
+
+This project uses rbenv, bundler, and foreman. Install rbenv, get bundler set up, and then `rbenv exec bundle install`.
+
+To test the output and see an example tweet on the command line, run `rbenv exec bundle exec foreman run ruby app.rb`
+To actually tweet to the account oauthed via your .env vars, run `rbenv exec bundle exec foreman run ruby app.rb --tweet`
