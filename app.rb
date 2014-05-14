@@ -1,5 +1,6 @@
 require 'twitter'
 require 'optparse'
+require 'rumoji'
 
 options = {}
 OptionParser.new do |opts|
@@ -10,13 +11,13 @@ OptionParser.new do |opts|
     end
 end.parse!
 
-titles = File.readlines("titles.txt")
+keys = File.readlines("emoji.txt")
 template = "%s in the streets, %s in the sheets"
 
 length = 141
 while length > 140 do
-    streets = titles.sample.chomp
-    sheets = titles.sample.chomp
+    streets = Rumoji.decode(keys.sample.chomp)
+    sheets = Rumoji.decode(keys.sample.chomp)
     length = (template.length - 4) + streets.length + sheets.length
 end
 
