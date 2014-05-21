@@ -12,7 +12,7 @@ OptionParser.new do |opts|
 end.parse!
 
 keys = File.readlines("emoji.txt")
-template = "%s in the streets, %s in the sheets"
+template = "I want a %s in the streets but a %s in the sheets"
 
 length = 141
 while length > 140 do
