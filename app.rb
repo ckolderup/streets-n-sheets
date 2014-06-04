@@ -1,6 +1,5 @@
 require 'twitter'
 require 'optparse'
-require 'rumoji'
 
 options = {}
 OptionParser.new do |opts|
@@ -11,13 +10,15 @@ OptionParser.new do |opts|
     end
 end.parse!
 
-keys = File.readlines("emoji.txt")
-template = "I want a %s in the streets but a %s in the sheets"
+keys = File.readlines("tv_shows.txt")
+template = "%s in the streets, %s in the sheets"
 
 length = 141
 while length > 140 do
-    streets = Rumoji.decode(keys.sample.chomp)
-    sheets = Rumoji.decode(keys.sample.chomp)
+    streetsraw = keys.sample.chomp.split(',')
+    sheetsraw = keys.sample.chomp.split(',')
+    streets = "#{streetsraw.first} Season #{streetsraw.last}"
+    sheets = "#{sheetsraw.first} Season #{sheetsraw.last}"
     length = (template.length - 4) + streets.length + sheets.length
 end
 

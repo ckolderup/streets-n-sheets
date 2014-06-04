@@ -1,0 +1,66 @@
+Game of Thrones,4
+Scandal,4
+Homeland,3
+True Blood,7
+Arrested Development,4
+Mad Men,7
+Grey's Anatomy,10
+Breaking Bad,5
+Glee,5
+Justified,5
+The Wire,5
+Community,5
+Dexter,8
+The Walking Dead,4
+Girls,3
+American Horror Story,3
+24,9
+Orange is the New Black,2
+Battlestar Galactica,4
+Lost,6
+True Detective,2
+Sherlock,3
+Orphan Black,2
+Twin Peaks,2
+Teen Wolf,3
+Downton Abbey,4
+The Office,9
+Veronica Mars,3
+The Simpsons,25
+Buffy the Vampire Slayer,7
+Boardwalk Empire,4
+Freaks and Geeks,1
+Friday Night Lights,5
+Heroes,4
+Entourage,8
+South Park,17
+The O.C.,4
+Firefly,1
+The X-Files,9
+Star Trek: The Next Generation,7
+Star Trek: Deep Space 9,7
+Desperate Housewives,8
+Gilmore Girls,7
+Adventure Time,6
+The West Wing,7
+Deadwood,3
+30 Rock,7
+Oz,6
+Alias,5
+Pushing Daisies,2
+King of the Hill,13
+Babylon 5,5
+Treme,4
+Walker Texas Ranger,8
+Xena Warrior Princess,6
+Quantum Leap,5
+Party Down,2
+Futurama,7
+Law & Order,20
+Newsradio,5
+Seinfeld,9
+Friends,10
+Frasier,11
+Aqua Teen Hunger Force,10
+Cheers,11
+Saturday Night Live,39
