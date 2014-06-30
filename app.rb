@@ -10,7 +10,7 @@ OptionParser.new do |opts|
     end
 end.parse!
 
-keys = File.readlines("elements.txt")
+keys = File.readlines("80s-artists.txt")
 template = "%s in the streets, %s in the sheets"
 
 length = 141
